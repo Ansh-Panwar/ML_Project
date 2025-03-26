@@ -103,7 +103,7 @@ A powerful web application for training, analyzing, and deploying machine learni
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/git-raghav/ML-Explorer.git
+git clone https://github.com/git-ansh-panwar/ML-Explorer.git
 cd ML-Explorer
 ```
 
