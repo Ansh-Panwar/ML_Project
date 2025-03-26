@@ -1,13 +1,13 @@
-# 🤖 Decipher
+# 🚀 ML Explorer
 
-A comprehensive web application for training, analyzing, and deploying machine learning models with an intuitive user interface.
+A powerful web application for training, analyzing, and deploying machine learning models with an intuitive user interface.
 
 ## 🌟 Features
 
 ### 📊 Dataset Management
 
 -   Upload and store preprocessed datasets
--   Load sample datasets (Titanic, Iris)
+-   Load sample datasets (Titanic, Iris, Mushrooms)
 -   Persistent storage for future use
 -   Easy dataset selection and management
 
@@ -49,21 +49,21 @@ A comprehensive web application for training, analyzing, and deploying machine l
 -   **ML Libraries**: scikit-learn, XGBoost
 -   **Data Processing**: pandas, numpy
 -   **Visualization**: plotly, matplotlib, seaborn
--   **Model Analysis**: SHAP
+-   **Model Analysis**: SHAP, Evidently AI
 
 ### Project Structure
 
 ```
 ├── app.py                 # Main application entry point
-├── utils.py              # Utility functions for ML operations
+├── utils.py               # Utility functions for ML operations
 ├── pages/
-│   ├── Home.py          # Landing page
-│   ├── Dataset_Load.py  # Dataset management
-│   ├── Train_Models.py  # Model training interface
-│   ├── Upload_Predict.py # Prediction interface
-│   └── Visualization.py # Model analysis and visualization
-├── models/              # Directory for saved models
-└── datasets/           # Directory for datasets
+│   ├── Home.py            # Landing page
+│   ├── Dataset_Load.py    # Dataset management
+│   ├── Train_Models.py    # Model training interface
+│   ├── Upload_Predict.py  # Prediction interface
+│   └── Visualization.py   # Model analysis and visualization
+├── models/                # Directory for saved models
+└── datasets/              # Directory for datasets
 ```
 
 ### Key Components
@@ -103,8 +103,8 @@ A comprehensive web application for training, analyzing, and deploying machine l
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/git-raghav/Decipher.git
-cd Decipher
+git clone https://github.com/git-raghav/ML-Explorer.git
+cd ML-Explorer
 ```
 
 2. Install dependencies:
